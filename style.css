@@ -1415,3 +1415,12 @@ form button:hover{
     }
 
 }
+@media(max-width:768px){
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+}
