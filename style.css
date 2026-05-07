@@ -1406,3 +1406,12 @@ form button:hover{
     }
 
 }
+@media(max-width:768px){
+
+    .hero{
+
+        padding-top:180px;
+
+    }
+
+}
