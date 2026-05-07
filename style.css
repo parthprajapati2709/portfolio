@@ -1293,3 +1293,116 @@ form button:hover{
     }
 
 }
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    /* NAVBAR */
+
+    nav{
+
+        padding:0 20px;
+
+        height:75px;
+
+    }
+
+    .logo{
+
+        font-size:22px;
+
+    }
+
+    .nav-links{
+
+        gap:20px;
+
+    }
+
+    .nav-links a{
+
+        font-size:14px;
+
+    }
+
+    /* HERO SECTION */
+
+    .hero{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        text-align:center;
+
+        padding:
+        120px 20px 60px;
+
+        gap:50px;
+
+    }
+
+    .hero-text{
+
+        width:100%;
+
+    }
+
+    .hero-text h1{
+
+        font-size:52px;
+
+        line-height:65px;
+
+    }
+
+    .hero-text h2{
+
+        font-size:36px;
+
+        line-height:48px;
+
+    }
+
+    .hero-text p{
+
+        font-size:18px;
+
+        line-height:32px;
+
+        max-width:100%;
+
+    }
+
+    .hero-text button{
+
+        width:180px;
+
+        height:55px;
+
+        font-size:17px;
+
+    }
+
+    /* IMAGE */
+
+    .hero-image{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+    }
+
+    .circle{
+
+        width:260px;
+        height:260px;
+
+    }
+
+}
